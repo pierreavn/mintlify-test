@@ -53,17 +53,9 @@
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Contribute",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "contribute/introduction"
       ]
     }
   ],
