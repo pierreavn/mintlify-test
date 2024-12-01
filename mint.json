@@ -15,10 +15,15 @@
       "to": "#07C983"
     }
   },
-  "topbarLinks": [],
+  "topbarLinks": [
+    {
+      "name": "Contact Us",
+      "url": "https://www.algosecure.fr/contact"
+    }
+  ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://github.com/algosecure/verdex"
+    "url": "/quickstart"
   },
   "anchors": [
     {
