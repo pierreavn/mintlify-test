@@ -3,28 +3,44 @@ title: 'Quickstart'
 description: 'Learn about how to install and start using Verdex in under 5 minutes'
 ---
 
+<Steps>
+  <Step title="Install Verdex">
+    <Tabs>
+      <Tab title="Go">
+        ```bash
+        go install -v github.com/algosecure/verdex/v1/cmd/verdex@latest
+        ```
+
+        <Note>Verdex requires the latest GO version to install successfully.</Note>
+      </Tab>
+      <Tab title="Docker">
+        ```bash
+        # using bash:
+        echo 'alias verdex="docker run --rm algosecure/verdex:latest"' >> ~/.bashrc
+        source ~/.bashrc
+
+        # or using zsh:
+        echo 'alias verdex="docker run --rm algosecure/verdex:latest"' >> ~/.zshrc
+        source ~/.zshrc
+        ```
+      </Tab>
+    </Tabs>
+  </Step>
+  <Step title="Check installation">
+    Check Verdex installation with following command:
+
+    ```bash
+    verdex -version
+    ```
+  </Step>
+  <Step title="Third Step">
+    These are instructions or content that only pertain to the third step.
+  </Step>
+</Steps>
+
 ## Install Verdex
 
-<Tabs>
-  <Tab title="Go">
-    ```bash
-    go install -v github.com/algosecure/verdex/v1/cmd/verdex@latest
-    ```
 
-    <Note>Verdex requires the latest GO version to install successfully.</Note>
-  </Tab>
-  <Tab title="Docker">
-    ```bash
-    # using bash:
-    echo 'alias verdex="docker run --rm algosecure/verdex:latest"' >> ~/.bashrc
-    source ~/.bashrc
-
-    # or using zsh:
-    echo 'alias verdex="docker run --rm algosecure/verdex:latest"' >> ~/.zshrc
-    source ~/.zshrc
-    ```
-  </Tab>
-</Tabs>
 
 ## Start using Verdex
 
