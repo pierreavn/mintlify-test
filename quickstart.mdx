@@ -15,17 +15,18 @@ description: 'Learn about how to install and start using Verdex in under 5 minut
   </Tab>
   <Tab title="Docker">
     ```bash
-    docker pull algosecure/verdex:latest
+    # with bash:
+    echo 'alias verdex="docker run --rm algosecure/verdex:latest"' >> ~/.bashrc
+    source ~/.bashrc
+
+    # with zsh:
+    echo 'alias verdex="docker run --rm algosecure/verdex:latest"' >> ~/.zshrc
+    source ~/.zshrc
     ```
   </Tab>
 </Tabs>
 
 ## Start using Verdex
-
-<Note>
-  If you use **Docker**, prefix all Verdex commands with `docker run --rm algosecure/verdex:latest ...`<br/>
-  example: `docker run --rm algosecure/verdex:latest -help`
-</Note>
 
 Learn how to update your docs locally and deploy them to the public.
 
