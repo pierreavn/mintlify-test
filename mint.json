@@ -27,19 +27,14 @@
   },
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "About AlgoSecure",
+      "icon": "chess",
+      "url": "https://www.algosecure.fr/en/notre-societe/notre-identite"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://www.algosecure.fr/en/actualites/blog"
     }
   ],
   "navigation": [
