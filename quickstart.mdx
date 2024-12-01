@@ -5,22 +5,23 @@ description: 'Learn about how to install and start using Verdex in under 5 minut
 
 ## Install Verdex
 
-<CodeGroup>
-
-```bash Go
-go install -v github.com/algosecure/verdex/v1/cmd/verdex@latest
-# Verdex requires the latest GO version to install successfully.
-```
-
+<Tabs>
+  <Tab title="Go">
+    ```bash Go
+    go install -v github.com/algosecure/verdex/v1/cmd/verdex@latest
+    # Verdex requires the latest GO version to install successfully.
+    ```
+  </Tab>
+  <Tab title="Docker">
 ```bash Docker
 docker pull algosecure/verdex:latest
 ```
-
-</CodeGroup>
+  </Tab>
+</Tabs>
 
 ## Start using Verdex
 
-<Note>If you use **Docker**, prefix all verdex commands with `docker run --rm algosecure/verdex ...`</Note>
+<Note>If you use **Docker**, prefix all Verdex commands with:<br/>`docker run --rm algosecure/verdex:latest ...`</Note>
 
 Learn how to update your docs locally and deploy them to the public.
 
